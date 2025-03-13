@@ -26,7 +26,7 @@
    // Konfiguracja
    const N8N_HOST = 'localhost';
    const N8N_PORT = 5678;
-   const N8N_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...';
+   const N8N_API_KEY = '
    const WORKFLOW_ID = 'ID_WORKFLOW_DO_AKTYWACJI';
 
    // Funkcja aktywująca workflow
@@ -83,7 +83,7 @@
          "args": ["/path/to/n8n_mcp_server.js"],
          "env": {
            "N8N_HOST": "http://localhost:5678",
-           "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+           "N8N_API_KEY": "eyJhbGciOR5cCI6IkpXVCJ9..."
          },
          "alwaysAllow": [
            "list_workflows",
