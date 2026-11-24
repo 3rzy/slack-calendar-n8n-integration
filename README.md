@@ -1,3 +1,32 @@
+<!-- HYDRA_IDENTITY_CARD_START -->
+# slack-calendar-n8n-integration
+
+## 🆔 Karta Tożsamości Repozytorium (Hydra Ecosystem)
+
+| Pole | Wartość |
+| :--- | :--- |
+| **Status repozytorium** | `LIBRARY` |
+| **Status komponentów** | `REUSABLE_WORKFLOW` |
+| **Cel** | Automatyczna integracja notatek głosowych ze Slacka z Kalendarzem Google przy pomocy przepływów n8n i protokołu MCP (analiza treści audio, wykrywanie uczestników, tworzenie wydarzeń). |
+| **Rola w ekosystemie** | Referencyjny workflow i specyfikacja integracji webhooków Slack z Google Calendar i LLM. |
+| **CURRENT (Stan bieżący)** | Pushed: 2025-03-13T20:52:27Z, HEAD SHA: 4f574cf15431e76135e9dc759849b3cf71eebafe (commit date: 2025-03-13T20:52:26Z), root files count: 2. Weryfikacja: 2026-11-24 via GitHub REST API. |
+| **TARGET (Stan docelowy)** | Wdrożenie workflow w produkcyjnej instancji n8n Hydry lub zachowanie jako biblioteka referencyjna. |
+| **Zależności** | Slack API, Google Calendar API, n8n, OpenAI Whisper / transkrypcja mowy. |
+| **Supersedes (Zastępuje)** | Brak. |
+| **Superseded by (Zastąpione przez)** | Docelowe zintegrowane workflowy kalendarza w Hydrze. |
+| **Źródło prawdy** | Repozytorium GitHub: 3rzy/slack-calendar-n8n-integration. |
+| **Owner** | Krzy (3rzy) |
+| **Ostatnia weryfikacja** | 2026-11-24 |
+
+### Klocki do ponownego wykorzystania (Reusable Blocks)
+Logika przetwarzania notatki głosowej, klasyfikacja prywatne/zawodowe/rodzinne, wykrywanie adresatów zaproszeń kalendarzowych.
+
+### Rekomendacja porządkowa
+PROPOSE_KEEP_AS_LIBRARY: Bardzo wartościowy przepływ łączący komunikację asynchroniczną z kalendarzem.
+
+---
+<!-- HYDRA_IDENTITY_CARD_END -->
+
 # Integracja Slack z Google Calendar przez n8n i MCP
 
 Projekt zawierający implementację integracji notatek głosowych ze Slacka z Google Calendar za pomocą n8n i protokołu MCP (Model Context Protocol).
